@@ -29,6 +29,6 @@ Neste blog, compartilho tutoriais técnicos, guias práticos, experiências com 
 
 ### Contato
 
-- 🐙 [GitHub](https://github.com/seu-usuario)
-- 🐦 [Twitter](https://twitter.com/seu-usuario)
-- 💼 [LinkedIn](https://linkedin.com/in/seu-perfil)
+- 🐙 [GitHub](https://github.com/emersonjfs)
+- 🐦 [Twitter](https://x.com/Emerson_jfs)
+- 💼 [LinkedIn](https://www.linkedin.com/in/emerson-santos-7160b874/)
