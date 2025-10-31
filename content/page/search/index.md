@@ -11,8 +11,7 @@ outputs:
 menu:
     main:
         weight: 5
-        params:
-            icon: search
+       
 ---
 
 Use a busca para encontrar artigos sobre infraestrutura, DevOps e Linux.

@@ -8,8 +8,8 @@ layout: "archives"
 menu:
     main:
         weight: 4
-        params:
-            icon: archives
+       
+       
 ---
 
 Todos os artigos técnicos publicados no Infraverso estão listados abaixo organizados por data.
