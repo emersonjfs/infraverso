@@ -7,7 +7,9 @@ slug: "portfolio"
 menu:
     main:
         weight: 3
-        
+        params: 
+            icon: messages
+    
 ---
 
 ## Meus Projetos
