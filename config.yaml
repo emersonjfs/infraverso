@@ -44,7 +44,7 @@ params:
 
     sidebar:
         emoji: 🍥
-        subtitle: SysAdmin Linux L2 | Explorando o Universo da Infraestrura e Automaçao
+        subtitle: SysAdmin Linux L2 | Explorando o Universo da Infraestrura e Automação
         avatar:
             enabled: true
             local: true
