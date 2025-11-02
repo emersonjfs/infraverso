@@ -1,0 +1,10 @@
+{{ define "main" }}
+  <main>
+    <h1>Home personalizada (teste)</h1>
+    {{ range first 10 (where .Site.RegularPages "Section" "posts") }}
+      <article>
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      </article>
+    {{ end }}
+  </main>
+{{ end }}
