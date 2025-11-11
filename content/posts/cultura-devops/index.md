@@ -87,7 +87,7 @@ cada servidor, e passa a se preocupar em codificar o ambiente.
 Objetivos de uma **Infraestrutura como Código:** * Aproveitar o tempo com melhorias ao invés de tarefas rotineiras e
 repetitivas; * Recuperar rapidamente o ambiente em caso de falhas ou perda total; * Possibilitar mudanças na infraestrutura
 de forma automatizada; * Garantir ambientes idênticos, baseados na mesma configuração; * Testar as mudanças antes que
-entrem em produção;
+entrem em produção.
 
 ## Desenvolvimento Ágil
 
@@ -95,16 +95,12 @@ entrem em produção;
 **Desenvolvimento Ágil** de software é um conjunto de metodologias de desenvolvimento de software. Alguns princípios da
 metodologia ágil são: * Garantir a satisfação do cliente entregando rapidamente e continuamente; * Rápida adaptação a
 mudanças; * Simplicidade; * O Design do software deve prezar pela excelência técnica; * Cooperação constante entre pessoas
-que entendem do negócio e desenvolvedores;
-Ambientes transitórios
-A Virtualização e a Computação em Nuvem(Cloud Computing) também disponibilizam a possibilidade de construir
-ambientes transitórios. Ambientes transitórios são ambientes de curta duração que são terminados com uma certa
-frequência.
+que entendem do negócio e desenvolvedores.
 
 ## Ambientes transitórios
 
 ![Desenvolvimento Agil](ambiente_transitorio.jpeg)
 A Virtualização e a Computação em Nuvem(Cloud Computing) também disponibilizam a possibilidade de construir
 ambientes transitórios. **Ambientes transitórios** são ambientes de curta duração que são terminados com uma certa
-frequência
+frequência.
 
