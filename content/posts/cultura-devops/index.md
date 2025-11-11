@@ -13,6 +13,7 @@ Na minha cocepção acho que seja de suma importância que todos que estejam len
 
 ## A história do DevOps
 
+![historia](historia_devops.jpeg)
 **DevOps (Development + Operations)** é um processo de desenvolvimento e entrega de software que enfatiza a comunicação
 entre os profissionais de desenvolvimento e operações, promovendo quebra de silos e paradigmas interdepartamentais
 tratando as equipes como único time para entregar juntos com excelência.
@@ -25,7 +26,7 @@ caso de falhas no ambiente; * Padronização nos processos de configuração e s
 
 ## Manisfesto Ágil 
 
-![Manifesto Agil](cultura_devops_img.1.4.png)
+![Manifesto Agil](manisfesto_agil.png)
 A utilização de métodos ágeis para desenvolvimento como o Lean, Scrum, Extreme Programming (XP), entre outras já é
 feita há algumas décadas, todas com o intuito de auxiliar o desenvolvedor a entregar seus projetos o mais rápido possível e
 ter uma fácil resposta a mudanças. Porém, somente em 2001 que um grupo de 17 desenvolvedores se reuniram em um resort
@@ -40,7 +41,7 @@ mais que seguir um plano.
 
 ## Agile Conference
 
-![Agile conference](cultura_devops_img.1.6.png)
+![Agile conference](agile_conference.jpeg)
 O termo DevOps surgiu em 2009, porém a ideia por trás já existia anos antes. Entre 2001 e 2008 diversas discussões
 começaram sobre como agilizar as entregas, sendo uma delas a **palestra Infraestrutura Ágil** de **Andrew Schafer** durante a
 Agile Conference de 2008, onde Andrew conheceu Patrick Debois.
@@ -50,7 +51,7 @@ assunto e convidar mais pessoas para colaborar.
 
 ## Velocity Conference
 
-![velocity conference](cultura_devops_img.1.3.png)
+![velocity conference](velocity_conferency.jpeg)
 Em 2009 na Velocity Conference da O’Reilly, John Allspaw e Paul Hammond apresentaram a famosa palestra chamada **“10+**
 **Deploys per Day: Dev and Ops Cooperation at Flickr”**. Durante a palestra foram discutidos assuntos como: * Interação
 entre os desenvolvedores e a equipe de operações; * Como conseguir um aumento dos deploys com ferramentas e mudanças
@@ -61,20 +62,21 @@ Patrick Debois comentou no twitter que lamentava não estar presente na palestra
 
 ## DevOpsDays
 
-![devops_day](cultura_devops_img_1.2.jpg)
+![devops_day](devopsday1.jpeg)
 Motivado pela palestra dos engenheiros da Flickr, Patrick Debois decidiu criar sua própria conferência na Bélgica que ficou
 conhecida como DevOpsDays e foi um sucesso. Para lembrar o dia, foi criada a tag #DevOps no Twitter, que posteriormente
 seria usado como o nome da cultura.
 
 ## Atualidade
 
+![devops_day](atualidade.jpeg)
 Desde então, cada vez mais pessoas estão se tornando adeptas da cultura DevOps. Alguns dos acontecimentos mais recentes
 que favoreceram isso foram o surgimento de diversas tecnologias de apoio a essa ideologia. Phoenix Project - O Projeto Fênix
 é uma ficção que conta como um gerente de TI salvou o departamento de uma companhia com a cultura DevOps.
 
 ## Infraestrutura Como Código
 
-![Infraestrutura como codigo](IaC-Infrastructure-as-Code-1.png)
+![Infraestrutura como codigo](infraestrutura_codigo.jpeg)
 **Infraestrutura como código (Infrastructure as a code)** é uma forma de construir e gerenciar uma infraestrutura da mesma
 maneira que ocorre no desenvolvimento de software. É também um processo de gerenciamento e provisionamento de
 recursos de infraestruturas, onde todas as atividades e passos para sua criação e configuração são registrados em scripts, utilizados por ferramentas de automação(como Ansible e Puppet) e passam pelo mesmo processo de versionamento que um
@@ -89,7 +91,7 @@ entrem em produção;
 
 ## Desenvolvimento Ágil
 
-![Desenvolvimento Agil](cultura_devops_img_1.7.jpg)
+![Desenvolvimento Agil](desenvolvimento_agil.jpeg)
 **Desenvolvimento Ágil** de software é um conjunto de metodologias de desenvolvimento de software. Alguns princípios da
 metodologia ágil são: * Garantir a satisfação do cliente entregando rapidamente e continuamente; * Rápida adaptação a
 mudanças; * Simplicidade; * O Design do software deve prezar pela excelência técnica; * Cooperação constante entre pessoas
@@ -101,6 +103,7 @@ frequência.
 
 ## Ambientes transitórios
 
+![Desenvolvimento Agil](ambiente_transitorio.jpeg)
 A Virtualização e a Computação em Nuvem(Cloud Computing) também disponibilizam a possibilidade de construir
 ambientes transitórios. **Ambientes transitórios** são ambientes de curta duração que são terminados com uma certa
 frequência
