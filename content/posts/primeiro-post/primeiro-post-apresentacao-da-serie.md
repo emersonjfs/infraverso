@@ -10,7 +10,6 @@ slug: "infraverso-inicio-laboratorio"
 
 Este é o post de abertura do InfraVerso: uma série prática para montar, do zero, um laboratório DevOps replicável — do ambiente local com Vagrant e Hugo ao deploy no OCI, com foco em clareza e repetibilidade.
 
-
 ## Olá! Eu sou Emerson Santos
 
 SysAdmin Linux L2 e entusiasta de infraestrutura e automação. Este espaço nasce para documentar um laboratório prático que uso no dia a dia e que você pode reproduzir em casa: desenvolvimento local no Linux Mint, homologação com Vagrant/libvirt e publicação em produção no Oracle Cloud (OCI). A ideia é compartilhar caminhos testados, atalhos e os “porquês” por trás das escolhas técnicas.

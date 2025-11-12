@@ -3,6 +3,7 @@ date = '2025-11-07T10:34:29-03:00'
 draft = false
 title = 'Cultura Devops'
 Image = "cultura_devops_img_1.0.jpg"
+tags = ["devops", "linux","DevOpsDay", "Agile", " Velocity", "Conference", "Iac" ]
 +++
 
 Antes de começar de fato a série que eu havia sugerido no primeiro post, acho que se faz necessário entendermos alguns conceitos. Eu criei este blog com intuíto de criar um ambiente que me sirva como um local onde eu possa, compartilhar meus conhecimentos e que também sirva como base de conhecimento e aprendizado para mim e para outras pessoas que por ventura encontrarem esse blog na internet. 
