@@ -81,4 +81,5 @@ Antes de começar, gostaria de salientar que estarei utilizando nesse exmplo de 
 O Processo de instalação do Vagrant é bem simples, basta baixar o instalador correspondente ao seu sistema operacional,
 instalar com seu gerenciador de pacotes e então validar a Instalação.
 
-Baixe o instalador do vagrant:
+
+teste de resolucção de problema 
