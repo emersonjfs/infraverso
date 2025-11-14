@@ -73,11 +73,3 @@ de plugins a outras soluções como VMWare e AWS.
 máquina no Hypervisor, o processo de execução do provisionador é executado.
 
 ## Instalação do Vagrant
-
-Antes de começar, gostaria de salientar que estarei utilizando nesse exmplo de instalação a versão do ubuntu 24.04, mas,  o processo de instalação para as demais distro é similar, de qualquer forma estarei disponibilizando a baixo o link para o site do projeto "vagrant" para que vocês possam acessar e conhecer um pouco melhor dessa ferramenta que ao meu ver é execelente para construção de pequenos e projetos e projetos pessoais. Eu utilizo muito ela na construção de meus labs, por ser uma ferramenta com curva de aprendizado relativamente simples e está alinhada com conceito de Devops.
-
- ~~**Site:**~~ [hashicorp vagrant](https://developer.hashicorp.com/vagrant)
-
-O Processo de instalação do Vagrant é bem simples, basta baixar o instalador correspondente ao seu sistema operacional,
-instalar com seu gerenciador de pacotes e então validar a Instalação.
-
