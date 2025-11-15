@@ -100,3 +100,25 @@ vagrant --version
      alt="Versão do Vagrant instalada no sistema" 
      width="800"
      style="max-width: 100%; height: auto;">
+
+## Definição de Máquinas Virtuais no Vagrant
+
+### Entendendo o Vagrantfile
+
+Vagrantfile é o nome do arquivo que contém instruções do que o Vagrant deve fazer para criar uma máquina virtual. O
+arquivo que deverá conter todas as instruções de criação de sua instância, como a quantidade de memória, cpu, rede, box,
+entre outras opções.
+O Vagrantfile é baseado em Ruby, e por isso segue as mesmas regras de sintaxe dessa linguagem de programação.
+
+```ruby
+Vagrant.configure("2") do |config|
+   config.vm.box = "centos /7"
+   config.vm.provider "virtualbox" do |vb|
+     vb.memory = "1024"
+     vb.cpus = "2"
+  end
+end
+```
+
+No exemplo acima estamos definindo uma infraestrutura de apenas uma máquina com a box do CentOS 7, a máquina terá
+1024 MB de memória e 2 vCPUs.
