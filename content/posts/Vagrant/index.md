@@ -149,6 +149,7 @@ Gere o arquivo Vagrantfile com o mínimo de configuração:
 ```sh
 vagrant init -m centos /7
 ```
+![Vagrant init](vagrant-init.png)
 
 *Ao executar o comando, um arquivo Vagrantfile é criado com diversas opções já preenchidas, porém comentadas. Para quem está
 trabalhando pela primeira vez com vagrant, talvez seja a melhor opção, caso contrario use a opção -m ou –minimal para remover todas
@@ -159,17 +160,21 @@ Edite o arquivo para ficar igual ao exemplo:
 ```sh
 vim Vagrantfile
 ```
+![Vagrant init](vagrant-vim.png)
+
 Conseguimos verificar se a syntax do arquivo editado está correta:
 
 ```sh
 Vagrant validate
 ```
+![Vagrant init](vagrant-validate.png)
 
 Construa seu ambiente de acordo com o que se encontra no Vagrantfile:
 
 ```sh
 Vagrant up
 ```
+![Vagrant up](vagrant-up.png)
 
 Para validar se a criação da instância ocorreu com sucesso, podemos acessa-la através do parametro **ssh** e em seguida
 desconectar da mesma
@@ -179,4 +184,4 @@ Acessando sua instância via ssh:
 ```sh
 Vagrant shh
 ```
-
+![Vagrant ssh](vagrant-ssh.png)
