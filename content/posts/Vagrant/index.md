@@ -185,3 +185,41 @@ Acessando sua instância via ssh:
 Vagrant ssh
 ```
 ![Vagrant ssh](vagrant-ssh.png)
+
+*O comando vagrant ssh efetua a conexão com a máquina descrita no Vagrantfile, também é possível especificar o nome ou id da máquina
+após o parâmetro ssh para conectar-se a uma máquina específica.*
+
+Podemos verificar as máquinas provenientes de um Vagrantfile utilizando a opção *status*
+
+```sh
+Vagrant status
+```
+![Vagrant ssh](vagrant-status.png)
+
+Também é possível listar todas as máquinas criadas através do vagrant sem a necessidade de estar no diretório do Vagrantfile
+através da opção *global-status*
+
+```sh
+Vagrant global-status
+```
+![Vagrant ssh](vagrant-global-status.png)
+
+Para desligar a instância, utilizamos a opção *halt*
+
+```sh
+Vagrant halt
+```
+![Vagrant ssh](vagrant-halt.png)
+
+*O comando vagrant halt efetua o desligamento das máquinas descritas no Vagrantfile, também é possível especificar o nome ou id da
+máquina após o parâmetro halt para desligar uma máquina específica.*
+
+Para deletar uma instância utilize a opção destroy
+
+```sh
+Vagrant destroy
+```
+![Vagrant ssh](vagrant-destroy.png)
+
+**ATENÇÃO:** A opção destroy é irreversível, tudo relacionado aquele ambiente que você criou será excluído, com
+exeção do conteúdo que está dentro do diretório do seu Vagrantfile
