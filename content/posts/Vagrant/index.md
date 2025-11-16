@@ -182,6 +182,6 @@ desconectar da mesma
 Acessando sua instância via ssh:
 
 ```sh
-Vagrant shh
+Vagrant ssh
 ```
 ![Vagrant ssh](vagrant-ssh.png)
