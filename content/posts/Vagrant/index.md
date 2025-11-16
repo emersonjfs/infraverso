@@ -122,3 +122,61 @@ end
 
 No exemplo acima estamos definindo uma infraestrutura de apenas uma máquina com a box do CentOS 7, a máquina terá
 1024 MB de memória e 2 vCPUs.
+
+~~*É importante que o arquivo tenha o nome de **Vagrantfile*** *(case-sensitive) ou o comando do vagrant não irá localiza-lo.
+Toda estrutura de um Vagrantfile começa informando a versão que irá utilizar do configfile e termina com a palavra end.*~~
+
+**Vagrant.configure(“2”) do |config| (...) end**
+
+O próximo passo é informar qual a imagem que iremos utilizar nessa instância, nesse caso usaremos a imagem chamada
+centos/7
+
+**config.vm.box = “centos/7”**
+
+Por último, criamos uma estrutura onde informamos qual é o provedor de nossa instância e suas configurações como cpu,
+memória, hostname, ip, etc...
+
+**config.vm.provider “virtualbox” do |vb|**
+
+## Criando uma instância
+
+Vamos criar uma instância com 1GiB de memória e 2 vCPU’s, igual ao exemplo anterior. O Vagrant permite que você gere
+o arquivo utilizando o parâmetro init, porém também é possível criar o arquivo manualmente, desde que o nome seja
+respeitado.
+
+Gere o arquivo Vagrantfile com o mínimo de configuração:
+
+```sh
+vagrant init -m centos /7
+```
+
+*Ao executar o comando, um arquivo Vagrantfile é criado com diversas opções já preenchidas, porém comentadas. Para quem está
+trabalhando pela primeira vez com vagrant, talvez seja a melhor opção, caso contrario use a opção -m ou –minimal para remover todas
+essas linhas e deixar somente o necessário.*
+
+Edite o arquivo para ficar igual ao exemplo:
+
+```sh
+vim Vagrantfile
+```
+Conseguimos verificar se a syntax do arquivo editado está correta:
+
+```sh
+Vagrant validate
+```
+
+Construa seu ambiente de acordo com o que se encontra no Vagrantfile:
+
+```sh
+Vagrant up
+```
+
+Para validar se a criação da instância ocorreu com sucesso, podemos acessa-la através do parametro **ssh** e em seguida
+desconectar da mesma
+
+Acessando sua instância via ssh:
+
+```sh
+Vagrant shh
+```
+
